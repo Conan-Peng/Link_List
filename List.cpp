@@ -160,7 +160,7 @@ int List::LocatedElem(Node* pNode)
 	return -1;
 }
 
-bool List::PriorElem(Node* pCurrentNode, Node* pPreNode)//快速过一遍，入门就可以，这不是现阶段的重点
+bool List::PriorElem(Node* pCurrentNode, Node* pPreNode)
 {
 	Node* currentNode = m_pList;
 	Node* tempNode = NULL;
